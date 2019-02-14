@@ -1,0 +1,5 @@
+ri = raw_input()
+ris = ri.split()
+h = int(ris[0])
+k = int(ris[1])
+print pow(2, h) * (k + 1)
